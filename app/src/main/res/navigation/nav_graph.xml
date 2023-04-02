@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.weather_application.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_noExtraWeatherFragment"
+            app:destination="@id/noExtraWeatherFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_extraWeatherForOldPeople"
+            app:destination="@id/extraWeatherForOldPeople" />
+    </fragment>
+    <fragment
+        android:id="@+id/noExtraWeatherFragment"
+        android:name="com.example.weather_application.NoExtraWeatherFragment"
+        android:label="fragment_no_extra_weather"
+        tools:layout="@layout/fragment_no_extra_weather" >
+        <action
+            android:id="@+id/action_noExtraWeatherFragment_to_extraWeatherForOldPeople"
+            app:destination="@id/extraWeatherForOldPeople" />
+    </fragment>
+    <fragment
+        android:id="@+id/extraWeatherForOldPeople"
+        android:name="com.example.weather_application.ExtraWeatherForOldPeople"
+        android:label="fragment_extra_weather_for_old_people"
+        tools:layout="@layout/fragment_extra_weather_for_old_people" >
+        <action
+            android:id="@+id/action_extraWeatherForOldPeople_to_noExtraWeatherFragment"
+            app:destination="@id/noExtraWeatherFragment" />
+    </fragment>
+</navigation>
