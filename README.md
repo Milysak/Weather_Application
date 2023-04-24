@@ -1,5 +1,5 @@
 # Weather_Application
-Projekt pogodynka napisany w Kotlinie, korzystający z API - openWeatherApp.
+Projekt pogodynka napisany w Kotlinie, korzystający z API - openWeatherApp. Pogoda składa się na aktualną temperaturę - wraz z max i min lokalną, ciśnienie, prędkość wiatru, wschód i zachód słońca.
 
 ## Technologie
 
@@ -10,10 +10,10 @@ Projekt pogodynka napisany w Kotlinie, korzystający z API - openWeatherApp.
 ## Zrzuty ekranu
 
 ### Ekraz z instrukcją
-<img src="https://github.com/Milysak/Fotobudka/blob/master/Screenshot_2023-02-13-19-50-31-154_com.example.fotobudka.jpg?raw=true" width="256">
+<img src="https://github.com/Milysak/Weather_Application/blob/master/Screenshot_2023-04-02-10-35-03-264_com.example.weather_application.jpg?raw=true" width="256">
 
 ### Ekran z pogodą
-<img src="https://github.com/Milysak/Fotobudka/blob/master/IMG_20230213_195058.jpg?raw=true" width="256">
+<img src="https://github.com/Milysak/Weather_Application/blob/master/Screenshot_2023-04-02-10-35-09-008_com.example.weather_application.jpg?raw=true" width="256">
 
 ### Ekran z pogodą (powiększony)
-<img src="https://github.com/Milysak/Fotobudka/blob/master/PDF_13-02_18-01-190.jpg?raw=true" width="256">
+<img src="https://github.com/Milysak/Weather_Application/blob/master/Screenshot_2023-04-02-10-35-12-136_com.example.weather_application.jpg?raw=true" width="256">
